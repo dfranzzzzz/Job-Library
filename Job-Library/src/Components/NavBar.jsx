@@ -29,7 +29,7 @@ const NavBar = () => {
                 </Link>
                 <Link
                   className="text-white hover:bg-teal-800 hover:text-white rounded-md px-3 py-2"
-                  to=""
+                  to="/add-job"
                 >
                   Add Job
                 </Link>

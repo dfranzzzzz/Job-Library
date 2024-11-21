@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Card from "../Templates/Card";
 
 const HomeCards = () => {
@@ -11,24 +12,24 @@ const HomeCards = () => {
             <p className="mt-2 mb-4">
               Browse our available jobs and start your career today
             </p>
-            <a
+            <Link
               className="inline-block bg-teal-950 text-white rounded-lg px-4 py-2 hover:bg-teal-900"
-              href=""
+              to="/jobs"
             >
               Browse Jobs
-            </a>
+            </Link>
           </Card>
           <Card bg="bg-emerald-200">
             <h2 className="text-2xl font-bold">For Employers</h2>
             <p className="mt-2 mb-4">
               List your job to find the perfect professional for the role
             </p>
-            <a
+            <Link
               className="inline-block bg-emerald-600 text-white rounded-lg px-4 py-2 hover:bg-emerald-700"
-              href=""
+              to=""
             >
               Add Job
-            </a>
+            </Link>
           </Card>
         </div>
       </div>
