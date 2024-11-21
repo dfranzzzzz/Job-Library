@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -6,32 +7,32 @@ const NavBar = () => {
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
-            <a
+            <Link
               className="flex flex-shrink-0 items-center mr-4 text-white text-2xl font-bold ml-2"
-              href=""
+              to="/"
             >
               Job Library
-            </a>
+            </Link>
             <div className="md:ml-auto">
               <div className="flex space-x-2">
-                <a
+                <Link
                   className="bg-teal-900 text-white hover:bg-teal-800 hover:text-white rounded-md px-3 py-2"
-                  href=""
+                  to="/"
                 >
                   Home
-                </a>
-                <a
+                </Link>
+                <Link
                   className="text-white hover:bg-teal-800 hover:text-white rounded-md px-3 py-2"
-                  href=""
+                  to="/jobs"
                 >
                   Jobs
-                </a>
-                <a
+                </Link>
+                <Link
                   className="text-white hover:bg-teal-800 hover:text-white rounded-md px-3 py-2"
-                  href=""
+                  to=""
                 >
                   Add Job
-                </a>
+                </Link>
               </div>
             </div>
           </div>
