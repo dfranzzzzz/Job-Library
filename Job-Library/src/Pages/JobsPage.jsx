@@ -4,7 +4,7 @@ import JobListings from "../Components/JobListings";
 const JobsPage = () => {
   return (
     <>
-      <JobListings />
+      <JobListings isHomePage={false} />
     </>
   );
 };
