@@ -1,12 +1,25 @@
 import React from "react";
-import { useParams, useLoaderData } from "react-router-dom";
-import Spinner from "../Components/Spinner";
+import { useParams, useLoaderData, Link } from "react-router-dom";
+import { FaMapMarker, FaArrowLeft } from "react-icons/fa";
 
 const JobPage = () => {
   const { id } = useParams();
   const job = useLoaderData();
 
-  return <h1>{job.title}</h1>;
+  return (
+    <>
+      <section>
+        <div className="container m-auto py-6 px-6">
+          <Link
+            to="/jobs"
+            className="text-teal-700 hover:text-teal-800 flex items-center"
+          >
+            <FaArrowLeft className="mr-2" /> Back to Job Listings
+          </Link>
+        </div>
+      </section>
+    </>
+  );
 };
 
 const jobLoader = async ({ params }) => {
