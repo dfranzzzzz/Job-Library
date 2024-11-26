@@ -6,7 +6,7 @@
       "type": "Full-Time",
       "description": "We are seeking an experienced .NET Developer to join our dynamic team. The ideal candidate will have a strong background in particularly with .NET Framework and .NET Core. You will be responsible for developing and maintaining web applications that are critical to our operations, including migrating legacy systems to .NET Core.",
       "location": "Ortigas, Pasig",
-      "salary": "$90K - $150K",
+      "salary": "$90K - $100K",
       "company": {
         "name": "True Development (TruDev)",
         "description": "Founded 14 years ago, TruDev connects highly-skilled developers from emerging nations such as the Philippines with small and medium-sized businesses in the US and Canada. Our goal is to empower coders from the world’s most exciting markets, so they can partner with US and Canadian visionaries to create groundbreaking products for the online world.",
@@ -81,6 +81,20 @@
         "name": "CollabGo",
         "description": "CollabGo is a Philippine-based IT solutions company owned by TrakTech. We empower businesses across various industries through a wide array of innovative technology solutions to help them scale in the new digital economy. Our mission is to create happier technological experiences by turning great ideas into excellent and valuable business solutions.",
         "contactEmail": "contact@collabgo.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "9bdc",
+      "title": "Test",
+      "type": "Full-Time",
+      "location": "Earth",
+      "description": "Test Description",
+      "salary": "Under $50K",
+      "company": {
+        "name": "Test Company",
+        "description": "Testing",
+        "contactEmail": "Test@test.com",
         "contactPhone": "555-555-5555"
       }
     }
