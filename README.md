@@ -10,7 +10,7 @@ A ReactJS project included in [Traversy Media React Crash Course 2024](https://w
 - CRUD functionalities for job listings
 - Consists of 5 pages (Home, Add Job, Jobs, Job, Edit Job)
 
-## Quick start
+## 🚀 Quick start
 
 Follow these steps to set up the project locally on your machine.
 
@@ -46,3 +46,13 @@ npm run server
 ```bash
 npm run dev
 ```
+
+## 📸 Screenshots
+
+<p>
+  <img src="screenshots/HomePage.png" width="800" />
+  <img src="screenshots/JobsPage.png" width="800" />
+  <img src="screenshots/JobPage.png" width="800" />
+  <img src="screenshots/EditJobPage.png" width="800" />
+  <img src="screenshots/AddJobPage.png" width="800" />
+</p>
